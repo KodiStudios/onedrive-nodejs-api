@@ -16,9 +16,21 @@ const graphClient = Client.init({
   },
 });
 
+// Profile Api
 graphClient
   .api("/me")
   .select("displayName")
+  .get()
+  .then((res) => {
+    console.log(res);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+
+// OneDrive Api
+graphClient
+  .api("/me/drive/root/children")
   .get()
   .then((res) => {
     console.log(res);
