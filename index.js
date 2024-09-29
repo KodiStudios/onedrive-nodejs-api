@@ -1,5 +1,4 @@
 const { Client } = require("@microsoft/microsoft-graph-client");
-//require("isomorphic-fetch");
 
 const graphClient = Client.init({
   defaultVersion: "v1.0",

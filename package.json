@@ -8,7 +8,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@microsoft/microsoft-graph-client": "^3.0.7",
-    "isomorphic-fetch": "^3.0.0"
+    "@microsoft/microsoft-graph-client": "^3.0.7"
   }
 }
