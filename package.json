@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@microsoft/microsoft-graph-client": "^3.0.7"
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "minimist": "^1.2.8"
   }
 }
