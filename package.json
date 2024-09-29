@@ -1,0 +1,14 @@
+{
+  "name": "onedrive-nodejs-api",
+  "version": "1.0.0",
+  "description": "OneDrive NodeJs Api",
+  "main": "index.js",
+  "repository": "https://github.com/KodiStudios/onedrive-nodejs-api.git",
+  "author": "Nikolai Aristov <KodiStudios@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
